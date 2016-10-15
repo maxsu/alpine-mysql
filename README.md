@@ -1,16 +1,14 @@
 # Run bash in alpine docker 
 
-It is my test on building a docker image based on small [alpine docker image] , you can build images less 50MB or even 10 MB
-
-I also made [slef built base image] , it demos how base image gets build
+A smol docker image based on the [alpine docker image] ; you can build images less 50MB or even 10 MB.
 
 # Instructions
 
 - Run bash
 
 ```
-docker pull yikaus/alpine-bash
-docker run --rm -ti yikaus/alpine-bash /bin/bash
+docker pull maxsu/docker-alpine-bash
+docker run --rm -ti maxsu/docker-alpine-bash /bin/bash
 ```
 
 - Check available package can be built on alpine
@@ -32,4 +30,3 @@ docker run --rm -ti gliderlabs/alpine /bin/sh
 ```
 
 [alpine docker image]: https://github.com/gliderlabs/docker-alpine
-[slef built base image]: https://github.com/yikaus/docker-alpine-base
