@@ -1,14 +1,13 @@
-# Run bash in alpine docker 
+# Run mysql in alpine docker
 
-A smol docker image based on the [alpine docker image] ; you can build images less than 50MB or even 10 MB.
+A smol docker image based on the [alpine docker image].
 
 # Instructions
 
-- Run bash
+- Pull container
 
 ```
-docker pull maxsu/docker-alpine-bash
-docker run --rm -ti maxsu/docker-alpine-bash /bin/bash
+docker pull maxsu/alpine-mysql
 ```
 
 - Check available package can be built on alpine
