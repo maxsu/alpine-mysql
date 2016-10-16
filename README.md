@@ -1,6 +1,6 @@
 # Run bash in alpine docker 
 
-A smol docker image based on the [alpine docker image] ; you can build images less 50MB or even 10 MB.
+A smol docker image based on the [alpine docker image] ; you can build images less than 50MB or even 10 MB.
 
 # Instructions
 
